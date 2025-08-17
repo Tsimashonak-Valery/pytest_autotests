@@ -160,9 +160,9 @@ class TestIPMeService:
         
         # Проверяем, что IP не локальный
         ip = data.get("ip", "")
-        assert_that(ip).does_not_start_with("127.")
-        assert_that(ip).does_not_start_with("192.168.")
-        assert_that(ip).does_not_start_with("10.")
+        assert_that(ip.startswith("127.")).is_false()
+        assert_that(ip.startswith("192.168.")).is_false()
+        assert_that(ip.startswith("10.")).is_false()
     
     def test_http_vs_https(self):
         """Тест редиректа с HTTP на HTTPS"""
@@ -188,15 +188,15 @@ class TestIPMeEdgeCases:
         """Тест обращения к несуществующему endpoint"""
         response = requests.get("https://ip.me/nonexistent")
         
-        # Должен вернуть 404 или перенаправить
-        assert_that(response.status_code).is_in([404, 200, 301, 302])
+        # ip.me возвращает 200 для всех запросов (возвращает IP или главную страницу)
+        assert_that(response.status_code).is_equal_to(200)
     
     def test_options_request(self):
         """Тест OPTIONS запроса для проверки CORS"""
         response = requests.options("https://ip.me/api")
         
-        # OPTIONS должен быть разрешен или вернуть 405
-        assert_that(response.status_code).is_in([200, 204, 405])
+        # ip.me возвращает 200 для OPTIONS запросов
+        assert_that(response.status_code).is_equal_to(200)
     
     def test_head_request(self):
         """Тест HEAD запроса"""

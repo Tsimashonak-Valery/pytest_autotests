@@ -1,0 +1,16 @@
+2025-08-17 11:57:23 | INFO | Starting test session
+2025-08-17 11:57:24 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_get_ip_address_text
+2025-08-17 11:57:24 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_get_ip_info_json
+2025-08-17 11:57:24 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_response_headers
+2025-08-17 11:57:24 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_endpoints_availability[/]
+2025-08-17 11:57:24 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_endpoints_availability[/ip]
+2025-08-17 11:57:25 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_endpoints_availability[/whois]
+2025-08-17 11:57:25 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_user_agent_detection
+2025-08-17 11:57:25 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_multiple_requests_consistency
+2025-08-17 11:57:26 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_ipv4_format_validation
+2025-08-17 11:57:26 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_response_time_performance
+2025-08-17 11:57:26 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_api_response_structure
+2025-08-17 11:57:26 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_http_vs_https
+2025-08-17 11:57:26 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeEdgeCases::test_invalid_endpoint
+2025-08-17 11:57:27 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeEdgeCases::test_options_request
+2025-08-17 11:57:27 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeEdgeCases::test_head_request
