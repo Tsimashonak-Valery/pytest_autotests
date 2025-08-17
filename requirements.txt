@@ -1,0 +1,36 @@
+# Core testing
+pytest==8.3.4
+pytest-html==4.1.1
+pytest-xdist==3.6.1
+pytest-rerunfailures==14.0
+pytest-timeout==2.3.1
+
+# API testing
+requests==2.32.3
+jsonschema==4.23.0
+pydantic==2.10.4
+
+# UI testing (Selenium)
+selenium==4.27.1
+webdriver-manager==4.0.2
+pytest-selenium==4.1.0
+
+# Assertions and matchers
+assertpy==1.1
+
+# Test data generation
+faker==33.2.0
+
+# Reporting
+allure-pytest==2.13.6
+
+# Utilities
+python-dotenv==1.0.1
+pyyaml==6.0.2
+
+# Logging
+loguru==0.7.3
+
+# Database testing (optional)
+pymongo==4.10.1
+psycopg2-binary==2.9.10
