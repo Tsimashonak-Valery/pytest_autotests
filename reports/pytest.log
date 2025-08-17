@@ -1,0 +1,79 @@
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.address`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.address` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.automotive`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.automotive` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.bank`.
+2025-08-17 11:23:29 [DEBUG] Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.barcode`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.barcode` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.color`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.color` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.company`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.company` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.credit_card` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.currency`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.currency` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.date_time`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.date_time` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.doi` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.geo`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.geo` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.internet`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.internet` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.isbn`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.isbn` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.job`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.job` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.lorem`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.lorem` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.misc`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.misc` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.passport`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.passport` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.person`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.person` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.phone_number` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-08-17 11:23:29 [DEBUG] Looking for locale `en_US` in provider `faker.providers.ssn`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.ssn` has been localized to `en_US`.
+2025-08-17 11:23:29 [DEBUG] Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-08-17 11:23:29 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:29 [DEBUG] https://ip.me:443 "GET / HTTP/1.1" 200 16
+2025-08-17 11:23:29 [DEBUG] Starting new HTTPS connection (1): api.ipify.org:443
+2025-08-17 11:23:29 [DEBUG] https://api.ipify.org:443 "GET /?format=json HTTP/1.1" 200 24
+2025-08-17 11:23:29 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:30 [DEBUG] https://ip.me:443 "GET / HTTP/1.1" 200 16
+2025-08-17 11:23:30 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:30 [DEBUG] https://ip.me:443 "GET / HTTP/1.1" 200 16
+2025-08-17 11:23:30 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:30 [DEBUG] https://ip.me:443 "GET /ip HTTP/1.1" 200 None
+2025-08-17 11:23:30 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:30 [DEBUG] https://ip.me:443 "GET /whois HTTP/1.1" 200 None
+2025-08-17 11:23:30 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:31 [DEBUG] https://ip.me:443 "GET / HTTP/1.1" 200 None
+2025-08-17 11:23:31 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:31 [DEBUG] https://ip.me:443 "GET / HTTP/1.1" 200 16
+2025-08-17 11:23:31 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:31 [DEBUG] https://ip.me:443 "GET / HTTP/1.1" 200 16
+2025-08-17 11:23:31 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:31 [DEBUG] https://ip.me:443 "GET / HTTP/1.1" 200 16
+2025-08-17 11:23:31 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:31 [DEBUG] https://ip.me:443 "GET / HTTP/1.1" 200 16
+2025-08-17 11:23:31 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:32 [DEBUG] https://ip.me:443 "GET / HTTP/1.1" 200 16
+2025-08-17 11:23:32 [DEBUG] Starting new HTTPS connection (1): api.ipify.org:443
+2025-08-17 11:23:32 [DEBUG] https://api.ipify.org:443 "GET /?format=json HTTP/1.1" 200 24
+2025-08-17 11:23:32 [DEBUG] Starting new HTTP connection (1): ip.me:80
+2025-08-17 11:23:32 [DEBUG] http://ip.me:80 "GET / HTTP/1.1" 200 16
+2025-08-17 11:23:32 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:32 [DEBUG] https://ip.me:443 "GET /nonexistent HTTP/1.1" 200 None
+2025-08-17 11:23:32 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:32 [DEBUG] https://ip.me:443 "OPTIONS /api HTTP/1.1" 200 0
+2025-08-17 11:23:32 [DEBUG] Starting new HTTPS connection (1): ip.me:443
+2025-08-17 11:23:33 [DEBUG] https://ip.me:443 "HEAD / HTTP/1.1" 200 0

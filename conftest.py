@@ -194,7 +194,6 @@ def sample_product(faker_instance):
 def pytest_configure(config):
     """Настройка pytest при запуске"""
     logger.info("Starting test session")
-    logger.info(f"Test paths: {config.getoption('testpaths')}")
 
 
 def pytest_collection_modifyitems(config, items):

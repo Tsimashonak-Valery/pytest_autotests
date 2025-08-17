@@ -1,0 +1,70 @@
+2025-08-17 11:11:50 | INFO | Starting test session
+2025-08-17 11:11:51 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_all_users
+2025-08-17 11:11:51 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_user_by_id
+2025-08-17 11:11:51 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_nonexistent_user
+2025-08-17 11:11:52 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_post_by_id[1]
+2025-08-17 11:11:52 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_post_by_id[2]
+2025-08-17 11:11:52 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_post_by_id[5]
+2025-08-17 11:11:52 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_post_by_id[10]
+2025-08-17 11:11:52 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_posts_by_user
+2025-08-17 11:11:53 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_create_post
+2025-08-17 11:11:53 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_create_post_with_invalid_data
+2025-08-17 11:11:53 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_update_post
+2025-08-17 11:11:54 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_partial_update_post
+2025-08-17 11:11:54 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_delete_post
+2025-08-17 11:11:54 | INFO | API Request: GET https://jsonplaceholder.typicode.com/users/1
+2025-08-17 11:11:54 | INFO | API Response: 200
+2025-08-17 11:11:54 | DEBUG | Response body: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2025-08-17 11:11:54 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_with_api_client_fixture
+2025-08-17 11:11:54 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_api_response_time
+2025-08-17 11:11:55 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_user_posts_relationship
+2025-08-17 11:11:55 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderComments::test_get_comments_for_post
+2025-08-17 11:11:56 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderComments::test_filter_comments_by_email
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAlbums::test_user_albums_photos_chain
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_save_and_load_json
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_save_and_load_csv
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_transform_products_adds_total
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_transform_users_adds_full_name
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_filter_by_category
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_filter_by_multiple_criteria
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_full_data_pipeline
+2025-08-17 11:11:57 | ERROR | Test failed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_empty_data_handling
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_data_consistency_across_formats
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_performance_with_different_data_sizes[10]
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_performance_with_different_data_sizes[100]
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataProcessorIntegration::test_performance_with_different_data_sizes[1000]
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataValidation::test_invalid_json_handling
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataValidation::test_missing_file_handling
+2025-08-17 11:11:57 | SUCCESS | Test passed: tests/integration/test_data_processing.py::TestDataValidation::test_unicode_data_handling
+2025-08-17 11:11:57 | INFO | Starting browser...
+2025-08-17 11:12:05 | ERROR | Test failed: tests/ui/test_example_ui.py::TestGoogleSearch::test_google_search_basic
+2025-08-17 11:12:05 | INFO | Closing browser...
+2025-08-17 11:12:06 | INFO | Starting browser...
+2025-08-17 11:12:08 | ERROR | Test failed: tests/ui/test_example_ui.py::TestGoogleSearch::test_google_search_suggestions
+2025-08-17 11:12:08 | INFO | Closing browser...
+2025-08-17 11:12:08 | INFO | Starting browser...
+2025-08-17 11:12:10 | ERROR | Test failed: tests/ui/test_example_ui.py::TestGoogleSearch::test_google_search_multiple_terms[selenium webdriver]
+2025-08-17 11:12:10 | INFO | Closing browser...
+2025-08-17 11:12:10 | INFO | Starting browser...
+2025-08-17 11:12:12 | ERROR | Test failed: tests/ui/test_example_ui.py::TestGoogleSearch::test_google_search_multiple_terms[pytest tutorial]
+2025-08-17 11:12:12 | INFO | Closing browser...

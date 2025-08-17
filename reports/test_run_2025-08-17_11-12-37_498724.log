@@ -1,0 +1,7 @@
+2025-08-17 11:12:37 | INFO | Starting test session
+2025-08-17 11:12:37 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_all_users
+2025-08-17 11:12:38 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_create_post
+2025-08-17 11:12:38 | INFO | Starting browser...
+2025-08-17 11:12:40 | ERROR | Test failed: tests/ui/test_example_ui.py::TestGoogleSearch::test_google_search_basic
+2025-08-17 11:12:40 | INFO | Closing browser...
+2025-08-17 11:12:40 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_multiply_basic

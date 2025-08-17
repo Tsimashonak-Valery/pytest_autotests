@@ -1,0 +1,4 @@
+2025-08-17 11:23:11 | INFO | Starting test session
+2025-08-17 11:23:11 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_get_ip_address_text
+2025-08-17 11:23:11 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_get_ip_info_json
+2025-08-17 11:23:11 | SUCCESS | Test passed: tests/api/test_ip_me.py::TestIPMeService::test_response_headers

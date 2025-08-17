@@ -1,0 +1,67 @@
+2025-08-17 11:12:22 | INFO | Starting test session
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_add_positive_numbers
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_add_negative_numbers
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_add_parametrized[0-0-0]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_add_parametrized[1-0-1]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_add_parametrized[0-1-1]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_add_parametrized[100-200-300]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_add_parametrized[0.1-0.2-0.3]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_add_parametrized[-5-5-0]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_subtract_positive_numbers
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_subtract_negative_result
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_multiply_basic
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_multiply_by_zero
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_multiply_negative_numbers
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_divide_positive_numbers
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_divide_with_float_result
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_divide_by_zero_raises_error
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_power[2-3-8]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_power[5-2-25]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_power[10-0-1]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_power[2--1-0.5]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculator::test_power[9-0.5-3]
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculatorEdgeCases::test_operations_with_large_numbers
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculatorEdgeCases::test_operations_with_floats
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/unit/test_calculator.py::TestCalculatorEdgeCases::test_many_operations
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_all_users
+2025-08-17 11:12:22 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_user_by_id
+2025-08-17 11:12:23 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_nonexistent_user
+2025-08-17 11:12:23 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_post_by_id[1]
+2025-08-17 11:12:23 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_post_by_id[2]
+2025-08-17 11:12:23 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_post_by_id[5]
+2025-08-17 11:12:23 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_post_by_id[10]
+2025-08-17 11:12:24 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_get_posts_by_user
+2025-08-17 11:12:24 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_create_post
+2025-08-17 11:12:24 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_create_post_with_invalid_data
+2025-08-17 11:12:25 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_update_post
+2025-08-17 11:12:25 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_partial_update_post
+2025-08-17 11:12:25 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_delete_post
+2025-08-17 11:12:25 | INFO | API Request: GET https://jsonplaceholder.typicode.com/users/1
+2025-08-17 11:12:25 | INFO | API Response: 200
+2025-08-17 11:12:25 | DEBUG | Response body: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2025-08-17 11:12:25 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_with_api_client_fixture
+2025-08-17 11:12:26 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_api_response_time
+2025-08-17 11:12:26 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAPI::test_user_posts_relationship
+2025-08-17 11:12:26 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderComments::test_get_comments_for_post
+2025-08-17 11:12:26 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderComments::test_filter_comments_by_email
+2025-08-17 11:12:27 | SUCCESS | Test passed: tests/api/test_jsonplaceholder.py::TestJSONPlaceholderAlbums::test_user_albums_photos_chain
